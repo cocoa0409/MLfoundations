@@ -19,5 +19,5 @@ X=[ones(size(X,1),1),X];
      end
      try_number=try_number+1;
  end
-     mistake_result_after_iteration=mistake(w,X)
+     mistake_result_after_iteration=mistake(w,X);
  end
