@@ -6,7 +6,7 @@ X=[ones(size(X,1),1),X];
  w_1=rands(1,n);
  w=rands(1,n);
  try_number=0;
- total_number=50;
+ total_number=100; % times of iteration
  gamma=1;
  rightnow_mistake=m;
  
@@ -19,5 +19,5 @@ X=[ones(size(X,1),1),X];
      end
      try_number=try_number+1;
  end
-     mistake_result_after_iteration=mistake(w,X);
+ mistake_result_after_iteration=mistake(w,X);
  end
