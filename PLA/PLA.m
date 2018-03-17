@@ -1,7 +1,7 @@
 function [w, update_iteration]=PLA(X)
 X=[ones(size(X,1),1),X];
  m = size(X,1);%total m
- n = size(X,2)-1;% feature n-1// all labels at n+1 column
+ n = size(X,2)-1;% feature n// all labels at n+1 column
  
  w=zeros(1,n);
  
